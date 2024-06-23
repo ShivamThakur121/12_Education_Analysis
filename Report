@@ -1,0 +1,111 @@
+# Report
+## Objective
+
+The objective of this analysis is to gain insights into the characteristics of colleges and answer key questions related to the educational landscape.
+By understanding the data, we aim to inform strategies for improving the quality of education and enhancing the overall college experience.
+The analysis will provide valuable insights and recommendations for stakeholders in the education sector.
+
+### Data Description
+
+The dataset includes various attributes of colleges and universities:
+
+#### Names: Names of various universities and colleges
+#### Apps: Number of applications received
+#### Accept: Number of applications accepted
+#### Enroll: Number of new students enrolled
+#### Top10perc: Percentage of new students from the top 10% of their Higher Secondary class
+#### Top25perc: Percentage of new students from the top 25% of their Higher Secondary class
+#### F.Undergrad: Number of full-time undergraduate students
+#### P.Undergrad: Number of part-time undergraduate students
+#### Outstate: Number of students for whom the particular college or university is out-of-state tuition
+#### Room.Board: Cost of room and board
+#### Books: Estimated book costs for a student
+#### Personal: Estimated personal spending for a student
+#### PhD: Percentage of faculties with Ph.D.'s
+#### Terminal: Percentage of faculties with terminal degrees
+#### S.F.Ratio: Student/faculty ratio
+#### Perc.alumni: Percentage of alumni who donate
+#### Expend: Instructional expenditure per student
+#### Grad.Rate: Graduation rate
+
+## Basic Step
+
+#### Display the top 5 rows of the dataset.
+#### Display the last 5 rows of the dataset.
+#### Check the shape of the dataset.
+#### Check the datatypes of each feature.
+#### Provide a statistical summary of the dataset.
+#### Identify and handle null values.
+#### Identify and handle duplicate values.
+#### Identify and correct anomalies or wrong entries.
+#### Identify and treat outliers.
+#### Perform necessary data cleaning steps such as dropping duplicates, 
+#### unnecessary columns, null value imputation, and outlier treatment.
+
+## Analysis and Insights
+
+#### Application and Enrollment Analysis
+
+Average number of applications received by colleges: 3007.59
+
+Average percentage of applications accepted: 67.2%
+
+Average enrollment rate: 38.5%
+
+College with the highest number of applications received:- Rutgers at New Brunswick
+
+## Academic Excellence
+
+Average percentage of new students from the top 10% of their higher secondary class: 27.62%
+
+Average percentage of new students from the top 25% of their higher secondary class: 55.79%
+
+Correlation between the percentage of students from the top 10% and the top 25% of their higher secondary class: Positive correlation (r = 0.89)
+
+## Student Demographics
+
+Average number of full-time undergraduate students per college: 3700
+
+Average number of part-time undergraduate students per college: 855
+
+College with the highest number of out-of-state students: Bennington College
+
+## Cost and Spending
+
+Average cost of room and board across all colleges:- $ 4358
+
+Average estimated book cost for a student: $547
+
+Average estimated personal spending for a student: $1601
+
+Variation in instructional expenditure per student across colleges: $9660
+
+## Faculty Qualifications
+
+Average percentage of faculties with Ph.D.s: 72.66%
+
+Average percentage of faculties with terminal degrees: 79.7
+
+Correlation between percentage of faculties with Ph.D.s and graduation rate: Negative correlation (r = 0.3)
+
+## Alumni Engagement
+
+Average percentage of alumni who donate across all colleges: 22
+
+Correlation between the percentage of alumni who donate and the graduation rate: Positive correlation (r = 0.49)
+
+## Graduation Rates
+
+Average graduation rate across all colleges: 65%
+
+College with the highest graduation rate: 'Cazenovia College'
+
+Correlation between the instructional expenditure per student and the graduation rate: (r = 0.4)
+
+
+```python
+print('End')
+```
+
+    End
+    
